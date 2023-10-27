@@ -1,0 +1,176 @@
+    /* Couleur de la police des liens inter-textes*/
+a{
+  color:  white}
+
+    /* Importation de la police d'écriture*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+    /* Mise en place de la couleur d'arrière-plan et de la police d'écriture*/
+body{background-color: #FF0000;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+dt{
+  font-weight:bold;
+}
+
+    /* Mise en forme du bas de page*/
+footer{
+	padding:20px 0px;
+	border-top: solid ;
+  border-bottom: solid ;
+	text-align:center;
+}
+
+    /* Mise en forme de l'en-tête*/
+header{
+  margin-left:au2to;
+  margin-right: auto;
+  padding: 70px;
+  text-align: center;
+  background-image: url(banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:black;
+  font-size: 50px;
+}
+
+h3{
+  text-align:center;
+  font-family: 'Bebas Neue', cursive;
+}8
+
+    /* Mise en forme de la bare de navigation*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    background-color: white;
+
+}
+
+li a:hover {
+    background-color: gray;
+    font-size: 1000;
+}
+
+    /* Mise en forme du contenu*/
+main{
+	width:930px;
+	background-color: #000000;
+	margin: auto;
+	padding:25px;
+}
+
+    /* alinéa */
+p{
+  text-indent:20px;
+}
+
+    /* Suite mise en forme de la barre de navigation*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #510f0b;
+    font-size: 25px;
+}
+
+.container{
+    text-align:center ;
+  color:#FFFFFF; 
+  font-family: 'Bebas Neue', cursive;
+  background-color: #000000;
+}
+
+}
+
+/* Couleur d'arrière-plan de l'entête*/
+.active {
+    background-color:black;
+}
+
+    /* Espace de réponse du quiz*/
+.bordure{
+  border : solid ;
+  border-color : darkgreen;
+}
+
+/* Mise en place des différentes photos*/
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+}
+
+.prix{
+    text-align: center;
+    font-size: 30px;
+}
+
+.description{
+    font-size: 20px;
+}
+
+  /* Encadré des films de la page 1*/
+.film{
+  border:solid;
+  border-color :#B0E0E6;
+  padding:5px;
+  width:600px;
+  margin-left: auto;
+  margin-right: auto; 
+  color:#a6a5c4;
+}
+
+  /* taille de l'image page 1*/
+.image{
+  width:930px;
+}
+
+ 
+}
+
+  /* Titre du site*/
+.mcu{
+    margin-top: 200px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+   
+    /* Animation du titre en CSS*/
+.titre{
+  margin-top: 200px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+  /* Titre article page 1*/
+.titrearticle{
+  margin-left:150px;
+  color:grey;
+  font-family: 'Bebas Neue', cursive;
+}
+
+    /* Titre des pages du site*/
+.titrepage{
+  text-align:center ;
+  color: #1E90FF;
+  font-family: 'Bebas Neue', cursive;
+}
+
+    /* Différents Titres de la page Source*/
+.titresource{
+  color : lightblue;
+  font-family: 'Bebas Neue', cursive;
+}
